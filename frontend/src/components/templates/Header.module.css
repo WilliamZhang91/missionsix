@@ -1,0 +1,40 @@
+.header {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between
+}
+
+.account {
+    display: flex;
+}
+
+.nav {
+    background-color: rgb(1, 100, 230);
+    width:100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.links {
+    margin: 15px 70px;
+    font-weight: 450;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.links:hover {
+    cursor: pointer;
+}
+
+.login {
+    padding: 0 50px 0 0;
+    color: gray;
+}
+
+.join {
+    padding: 0 50px 0 0;
+}
+

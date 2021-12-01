@@ -1,0 +1,28 @@
+.summaryDetails {
+    display: flex;
+    font-size: 35px;
+}
+
+.title {
+    font-size:70px;
+}
+
+.marginPrice {
+    padding: 0 600px;
+}
+
+.marginPlan {
+    padding: 0 485px;
+}
+
+.marginName {
+    padding: 0 275px;
+}
+
+.marginVehicle {
+    padding: 0 500px
+}
+
+.marginEmail {
+    padding: 0 310px;
+}

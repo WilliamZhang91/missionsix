@@ -1,0 +1,149 @@
+.gender {
+    display: flex;
+}
+
+.choose {
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 240px;
+    background-color: white;
+    border: 1px solid rgb(0, 2, 114);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.backgroundColor {
+    background-color: rgb(0, 24, 160);
+    color: white;
+}
+
+.plans {
+    display: flex;
+}
+
+.empty {
+    width: 25%;
+}
+
+.plan_options {
+    border: 1px rgb(212, 205, 205) solid;
+    border-radius: 5px;
+    width: 900px;
+    margin: 0 50px 0 0px;
+}
+
+.plan_options:hover {
+    cursor: pointer;
+}
+
+.card_options {
+    margin: auto;
+    height: 700px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgb(0, 2, 114);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 0 0 20px;
+}
+
+.button1 {
+    border: none;
+    border-radius: 10px;
+    margin: 0 0 0 20px; 
+    font-size: 25px;
+    width: 250px;
+    height: 45px;
+    background-color: rgb(1, 100, 230);
+    color: white;
+}
+
+.highlight {
+    background-color: rgb(0, 24, 160);
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 20px;
+}
+
+.button:hover{
+    cursor:pointer;
+}
+
+.vehicle_details {
+    font-weight: 450;
+    font-size: 70px;
+}
+
+.format {
+    font-size: 25px;
+    width: 75%;
+}
+
+.form {
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(236, 233, 233);
+}
+
+.form2 {
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 75px 85px; 
+    font-size: 30px;
+    width: 520px;
+    height: 40px;
+    background-color: rgb(236, 233, 233);
+}
+
+.form3 {
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 75px 290px; 
+    font-size: 30px;
+    width: 510px;
+    height: 40px;
+    background-color: rgb(236, 233, 233);
+}
+
+
+.arrow {
+    margin: 50px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.license {
+    font-size: 20px;
+    height: 40px;
+    width: 510px;
+    border:none;
+    border-radius: 5px;
+    background-color:rgb(235, 233, 233);
+    margin: 60px 0 0 0;
+}
+
+.margin {
+    margin: 60px 0 0 0;
+}
+
+

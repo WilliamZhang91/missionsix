@@ -1,0 +1,76 @@
+.layout {
+    width: 100%;
+    display:flex;
+    font-size: 25px;
+    justify-content:space-between
+}
+
+.layout1 {
+    width: 75%;
+}
+
+.paymentplanform {
+    display: flex;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.button {
+    height: 40px;
+    border: none;
+    margin: 0 0px 0 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 254px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 65px 0 0 0;
+}
+
+.input {
+    height: 40px;
+    width: 250px;
+    border: none;
+    background-color:rgb(236, 235, 235);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 0 0 0;
+}
+
+.input1 {
+    height: 40px;
+    width: 530px;
+    border: none;
+    background-color:rgb(236, 235, 235);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 0 0 0;   
+}
+
+.margin_input {
+    margin: 0 25px  0 0;
+}
+
+.arrow {
+    margin: 50px 0;
+    position: relative;
+    left: 1000px;
+}
+
+.empty {
+    width: 25%;
+}
+
+
+
+
+
+
+

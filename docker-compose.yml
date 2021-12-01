@@ -1,0 +1,23 @@
+version: "3"
+services: 
+  react-app:
+    image: turners-app7
+    stdin_open: true
+    ports:
+      - "3000:3000"
+  api-server:
+    image: turners-server
+    ports:
+      - "4000:4000"
+    depends_on:
+      - mongo
+    volumes:
+      - mongo-data:/data/db
+  mongo: 
+    image: mongo:5.0.4
+    ports:
+      - "27017:27017"
+volumes:
+  mongo-data:
+    driver: local
+   
