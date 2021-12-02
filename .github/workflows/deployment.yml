@@ -1,12 +1,27 @@
 name: GitHub Actions Demo
+
 on: [push]
+
 jobs:
-  Explore-GitHub-Actions:
+  build:
+
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+    - uses: actions/checkout@v2
+    - run: npm i
+    - run: npm run build --if-present
+    - uses: jakeJarvis/s3-sync-action@master
       with:
-        node-version: '16'
-      - run: npm install
-      - run: npm test
+        args: --acl public-read --follow-symlinks --delete
+      env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: 'ap-southeast-2'
+        SOURCE_DIR: "build"
