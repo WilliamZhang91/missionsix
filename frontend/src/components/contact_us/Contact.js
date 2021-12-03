@@ -1,5 +1,5 @@
 import styles from "./Contact.module.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Axios from "axios";
 
 const Contact = () => {
@@ -32,7 +32,7 @@ const Contact = () => {
         });
         console.log("submitted")
     }
-
+    
     return <div className={styles.layout}>
         <div className={styles.inner_layout}>
 
